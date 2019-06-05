@@ -1,0 +1,143 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navcomponent{
+    width: 100%;
+    height: 80px;
+    background: black;
+    position: fixed;
+    
+}
+
+.navcomponent,a{
+    color: aliceblue !important;
+    float: right !important;
+    position: relative !important;
+    padding: 10px !important;
+    margin-top: auto; margin-bottom: auto !important;
+    
+}
+
+#firstcontainer{
+    width: 50%;
+    height: 100%;
+    background: red;
+    float: left;
+
+}
+
+#secoundcontainer{
+    width: 50%;
+    height: 100%;
+    background: blue;
+    float: left;
+}
+
+.part1{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    top: 150px;
+
+}
+
+.part2{
+    width: 500px;
+    height: 300px;
+    background: red;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    top: 150px;
+    border-radius: 40px;
+
+}
+
+.loginid{
+    width: 400px;
+    height: 50px;
+    background:wheat;
+    margin-left: auto; margin-right: auto;
+    top: 50px;
+    position: relative;
+    border-radius: 40px;
+    
+    /* font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #333333;
+    display: block;
+    width: 400px;
+    background: #fff;
+    height: 50px;
+    top: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+    position: relative;
+    margin-left: auto; margin-right: auto; */
+    
+
+}
+
+.password{
+    width: 400px;
+    height: 50px;
+    background:wheat;
+    margin-left: auto; margin-right: auto;
+    top: 60px;
+    position: relative;
+    border-radius: 40px;
+    
+}
+
+.btn{
+    position: absolute;
+    top: 180px;
+    left: 125px;
+    padding: 10px 100px 10px !important; 
+    border-radius: 40px !important;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    #firstcontainer{
+        width: 100%;
+        height: 25%;
+        background:white;
+        float: left;
+    }
+
+    #secoundcontainer{
+        background: rgb(255, 255, 255);
+        float: left;
+        height: 0%;
+    }
+
+    .part1{
+        width: 200px;
+        height: 200px;
+        background: blue;
+        position: relative;
+        margin-left: auto; margin-right: auto;
+        top: 50px;
+    }
+
+    .part2 {
+        width: 415px;
+        height: 300px;
+    }
+
+    .loginid,.password{
+        width: 300px;
+    }
+
+    .btn {
+        left: 85px;
+    }
+}
