@@ -7,7 +7,7 @@ html,body{
 
 .navcomponent{
     width: 100%;
-    height: 80px;
+    height: 90px;
     background: black;
     position: fixed;
     
@@ -25,7 +25,7 @@ html,body{
 #firstcontainer{
     width: 50%;
     height: 100%;
-    background: red;
+    background: wheat;
     float: left;
 
 }
@@ -33,7 +33,7 @@ html,body{
 #secoundcontainer{
     width: 50%;
     height: 100%;
-    background: blue;
+    background: wheat;
     float: left;
 }
 
@@ -50,15 +50,16 @@ html,body{
 .part2{
     width: 500px;
     height: 300px;
-    background: red;
+    background: white;
     position: relative;
     margin-left: auto; margin-right: auto;
     top: 150px;
     border-radius: 40px;
+    border: 2px solid black;
 
 }
 
-.loginid{
+/* .loginid{
     width: 400px;
     height: 50px;
     background:wheat;
@@ -66,21 +67,6 @@ html,body{
     top: 50px;
     position: relative;
     border-radius: 40px;
-    
-    /* font-family: Montserrat-Bold;
-    font-size: 15px;
-    line-height: 1.2;
-    color: #333333;
-    display: block;
-    width: 400px;
-    background: #fff;
-    height: 50px;
-    top: 50px;
-    border-radius: 25px;
-    padding: 0 30px 0 53px;
-    position: relative;
-    margin-left: auto; margin-right: auto; */
-    
 
 }
 
@@ -93,17 +79,53 @@ html,body{
     position: relative;
     border-radius: 40px;
     
-}
+} */
 
 .btn{
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 125px;
     padding: 10px 100px 10px !important; 
     border-radius: 40px !important;
+    border: 2px solid black!important;
     
-
 }
+
+input[type=text] {
+    width: 400px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    border-radius: 40px;
+
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  .material-icons {
+    margin: 0px 50px;
+    padding: 5px;
+  }
+
+  p{
+      color: white;
+      text-align: center;
+  }
+
+  p:hover {
+    text-decoration: none;
+  }
+
 
 @media only screen and (max-width: 600px) {
     #firstcontainer{
@@ -140,4 +162,8 @@ html,body{
     .btn {
         left: 85px;
     }
+
+    .input{
+        width: 200px !important;
+}
 }
